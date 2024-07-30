@@ -9,7 +9,7 @@ async function fetchWeather(event) {
     alert("Please enter a city name.");
     return;
   }
-  const apiKey = "YOUR_API_KEY"; // Replace with your OpenWeatherMap API key
+  const apiKey = "56d81bfcf4f2e2278361aecce8c08ddc"; // Replace with your OpenWeatherMap API key
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   try {
